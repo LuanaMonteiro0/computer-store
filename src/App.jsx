@@ -1,6 +1,6 @@
-import { usestate } from 'react'
+import { useState } from 'react'
 import Banner from "./componentes/Banner/Banner";
-import FormuLario from "./componentes/Formulario/Formulario";
+import Formulario from "./componentes/Formulario/Formulario";
 import Area from "./componentes/Area/Area";
 
 function App() {
@@ -12,7 +12,7 @@ const secoes =[
 { nome:'Gadgets', corPrimaria: '#DB6EBF', corSecundaria: '#FAE9F5'}
 ];
 
-const marcas = ["HP", "Dell", "Positivo", "Asus", "Xing Ling Genérico"];
+const marcas = ["HP", "Dell", "Positivo", "Asus", "Xing Ling genérico"];
 
 const [produtos, setProdutos] = useState([])
 
