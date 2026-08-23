@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6278F7"/>
+      <stop offset="1" stop-color="#3B4FD8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="220" fill="url(#fundo)"/>
+
+  <g stroke="#95FFD4" stroke-width="6" fill="none" opacity="0.35">
+    <rect x="70" y="60" width="130" height="90" rx="8"/>
+    <line x1="105" y1="150" x2="165" y2="150"/>
+    <line x1="135" y1="150" x2="135" y2="170"/>
+    <line x1="110" y1="170" x2="160" y2="170"/>
+  </g>
+
+  <g stroke="#FFFFFF" stroke-width="6" fill="none" opacity="0.9">
+    <rect x="80" y="70" width="110" height="70" rx="6"/>
+    <line x1="112" y1="140" x2="158" y2="140"/>
+    <line x1="135" y1="140" x2="135" y2="158"/>
+    <line x1="115" y1="158" x2="155" y2="158"/>
+  </g>
+
+  <text x="240" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="bold" fill="#FFFFFF">Computer Store</text>
+  <text x="244" y="155" font-family="'Segoe UI', Arial, sans-serif" font-size="28" fill="#C9D2FF">Computadores, acessorios, impressoras, games e gadgets</text>
+
+  <g fill="#FFFFFF" opacity="0.25">
+    <circle cx="1020" cy="60" r="10"/>
+    <circle cx="1070" cy="120" r="16"/>
+    <circle cx="980" cy="170" r="8"/>
+    <rect x="1090" y="40" width="30" height="30" rx="6"/>
+    <rect x="1120" y="150" width="22" height="22" rx="5"/>
+  </g>
+</svg>
