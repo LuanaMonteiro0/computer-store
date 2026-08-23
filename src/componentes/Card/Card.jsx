@@ -3,11 +3,11 @@ import React from "react";
 import "./Card.css";
 
 const imagensMarcas = {
-    "HP": "/imagens/marcas/hp.svg",
-    "Dell": "/imagens/marcas/dell.svg",
-    "Positivo": "/imagens/marcas/positivo.svg",
-    "Asus": "/imagens/marcas/asus.svg",
-    "Xing Ling genérico": "/imagens/marcas/xing-ling.svg"
+    "HP": "/imagens/marcas/hp.png",
+    "Dell": "/imagens/marcas/dell.png",
+    "Positivo": "/imagens/marcas/positivo.png",
+    "Asus": "/imagens/marcas/asus.png",
+    "Xing Ling genérico": "/imagens/marcas/xing-ling.png"
 };
 
 const Card = (props) => {
