@@ -1,6 +1,6 @@
 import { usestate } from 'react'
 import Banner from "./componentes/Banner/Banner";
-import FormuLario from "./componentes/FormuLar1o/FormuLario";
+import FormuLario from "./componentes/Formulario/Formulario";
 import Area from "./componentes/Area/Area";
 
 function App() {
