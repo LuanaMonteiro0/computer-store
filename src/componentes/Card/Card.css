@@ -1,0 +1,59 @@
+
+.card {
+	width: 280px;
+}
+
+.card .cabecalho {
+	background-color: #F0F0F0;
+	border-radius: 10px 10px 0px 0px;
+	padding-top: 16px;
+}
+
+.card .cabecalho img {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
+.card .rodape {
+	background: #FFFFFF;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+	border-radius: 0px 0px 10px 10px;
+	padding-top: 24px;
+	padding-bottom: 40px;
+}
+
+.card .rodape h4 {
+	color: #6278F7;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.card .rodape h5 {
+	font-size: 18px;
+	line-height: 22px;
+	color: #212121;
+	padding: 0 16px;
+	margin: 0 0 16px 0;
+}
+
+.card .tag {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: bold;
+	padding: 4px 16px;
+	border-radius: 10px;
+	color: #FFF;
+	background-color: #6278F7;
+}
+
+.card .tag.novo {
+	background-color: #57C278;
+}
+
+.card .tag.usado {
+	background-color: #E06B69;
+}

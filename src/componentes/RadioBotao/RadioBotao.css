@@ -1,0 +1,29 @@
+
+.radio-botao {
+	margin: 24px 0;
+}
+
+.radio-botao label {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 24px;
+}
+
+.radio-botao .opcoes {
+	display: flex;
+	gap: 32px;
+}
+
+.radio-botao .opcao {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 24px;
+}
+
+.radio-botao .opcao input {
+	width: 24px;
+	height: 24px;
+	accent-color: #6278F7;
+	cursor: pointer;
+}
