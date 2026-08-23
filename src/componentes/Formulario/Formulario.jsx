@@ -8,9 +8,8 @@ import Botao from "../Botao/Botao";
 
 const Formulario = (props) => {
 
-    // Criando os estados...
-    const [secao, setSecao] = useState('')
-    const [marca, setMarca] = useState('')
+    const [secao, setSecao] = useState(props.secoes[0])
+    const [marca, setMarca] = useState(props.marcas[0])
     const [nome, setNome] = useState('')
     const [preco, setPreco] = useState('')
     const [condicao, setCondicao] = useState('Novo')
@@ -31,7 +30,6 @@ const Formulario = (props) => {
         setCondicao('Novo');
     }
 
-    // no campo preço apenas numeros (e ponto decimal) são aceitos:
     const aoDigitadoPreco = (valor) => {
         setPreco(valor.replace(/[^0-9.]/g, ''))
     }
